@@ -27,6 +27,7 @@ function App() {
 			</div>
 		);
 	}
+	console.log(activeUser);
 	return (
 		<div className='container'>
 			<div>
@@ -48,7 +49,7 @@ function App() {
 					{activeUser?.id ? (
 						<div className='user'>
 							<p>
-								<img src='./avatar.svg' alt='' className='userImage' />
+								<img src={activeUser?.avatar} alt='' className='userImage' />
 							</p>
 							<h4>@{activeUser?.profile.username}</h4>
 							<textarea

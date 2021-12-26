@@ -75,6 +75,8 @@
 .userImage {
 	width: 200px;
 	height: 200px;
+	border-radius: 50%;
+	border: 1px solid #6c6c6c50;
 }
 
 .name-field,
